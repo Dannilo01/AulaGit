@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Spongeboy";
+    src: url(./assets/fonts/Spongeboy\ Me\ Bob.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 3.2rem;
+    font-family: "Spongeboy";
+    color: rgb(198, 153, 6);
+    text-shadow: .2rem .2rem .2rem black;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgb(69, 109, 73), rgb(0, 187, 255));
+}
+
+.conteudo {
+    box-shadow: 0 0 .3rem rgb(94, 102, 32);
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    background-color: rgb(173, 208, 155);
+}
+
+.perfil {
+    height: 15rem;
+    margin: 2rem;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
